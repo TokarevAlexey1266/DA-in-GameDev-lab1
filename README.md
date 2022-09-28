@@ -44,9 +44,9 @@
 Так выглядит вывод в Google Colab:
 ![image](https://user-images.githubusercontent.com/106770342/192844425-e0460388-5669-4fb8-a770-d325c2bf1790.png)
 
-Вывод в консоль "Hello World" в Unity:
+скрипт вывода текста в Unity:
 ![image](https://user-images.githubusercontent.com/106770342/192846131-cd26bb79-be56-4628-96e9-50f87b284cfb.png)
-
+Вывод в консоль "Hello World" в Unity:
 ![image](https://user-images.githubusercontent.com/106770342/192846214-f363c787-c499-4b1a-a821-dcacef55eb95.png)
 
 
