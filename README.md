@@ -113,6 +113,29 @@ def iterate(a,b,x,y,times):
 
 ```
 
+loss_function и model связанные функции, optimize и model тоже, optimize и iterate также
+```py
+
+In [ ]:
+a = np.random.rand(1)
+print(a)
+b = np.random.rand(1)
+print(b)
+Lr = 0.000001
+
+#For the first iteration, the parameter values, losses, and visualization after the iteration are displayed
+a,b = iterate(a,b,x,y,1)
+prediction=model(a,b,x)
+loss = loss_function(a, b, x, y)
+print(a,b,loss)
+plt.scatter(x,y)
+plt.plot(x,prediction)
+
+```
+
+
+
+
 
 ## Задание 2
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
