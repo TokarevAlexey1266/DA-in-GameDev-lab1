@@ -196,8 +196,17 @@ print(a,b,loss)
 plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
-
-
+Итерация 10000:
+![image](https://user-images.githubusercontent.com/106770342/192855850-9be00807-707a-4591-ba93-774188c2465a.png)
+```py
+In [ ]:
+a,b = iterate(a,b,x,y,10000)
+prediction=model(a,b,x)
+loss = loss_function(a, b, x, y)
+print(a,b,loss)
+plt.scatter(x,y)
+plt.plot(x,prediction)
+```
 
 ## Задание 2
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
