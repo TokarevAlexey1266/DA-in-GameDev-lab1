@@ -133,7 +133,7 @@ plt.plot(x,prediction)
 ```
 
 Итерация 1:
-![image](https://user-images.githubusercontent.com/106770342/192851649-15af6d7c-e874-49b9-a812-4151170087cf.png)
+
 ```py
 
 In [ ]:
@@ -145,7 +145,8 @@ plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
 Итерация 2:
-![image](https://user-images.githubusercontent.com/106770342/192852031-86970884-f02d-44e6-af2e-7832dde00c66.png)
+![image](https://user-images.githubusercontent.com/106770342/192851649-15af6d7c-e874-49b9-a812-4151170087cf.png)
+
 
 ```py
 
@@ -158,7 +159,7 @@ plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
 Итерация 3:
-![image](https://user-images.githubusercontent.com/106770342/192854673-af127e3e-2da4-491e-83b0-fe3e49b965cd.png)
+![image](https://user-images.githubusercontent.com/106770342/192852031-86970884-f02d-44e6-af2e-7832dde00c66.png)
 
 ```py
 In [ ]:
@@ -170,7 +171,9 @@ plt.scatter(x,y)
 plt.plot(x,prediction)
 ```
 Итерация 4:
-![image](https://user-images.githubusercontent.com/106770342/192854895-a1923ca8-265f-464d-a06b-c9370b4041c3.png)
+
+![image](https://user-images.githubusercontent.com/106770342/192854673-af127e3e-2da4-491e-83b0-fe3e49b965cd.png)
+
 
 ```py
 In [ ]:
@@ -183,7 +186,7 @@ plt.plot(x,prediction)
 ```
 
 Итерация 5:
-
+![image](https://user-images.githubusercontent.com/106770342/192854895-a1923ca8-265f-464d-a06b-c9370b4041c3.png)
 ```py
 In [ ]:
 a,b = iterate(a,b,x,y,5)
