@@ -40,17 +40,29 @@
 ## Задание 1
 ### в проекте юнити реализовать перцептрон, который умеет производить вычисления: OR, AND, NAND, XOR.
 Ход работы:
-
 Разбираем логику  OR, AND, NAND, XOR:
 ![image](https://user-images.githubusercontent.com/106770342/204089428-e51dd43f-a95c-4ca8-ab8a-7005de2d063c.png)
 
+
+
 Создаем 3D Unity проект:
 ![image](https://user-images.githubusercontent.com/106770342/204089492-bc0647ae-c6ee-47d0-bb22-52a4da45bbeb.png)
+
+
 
 Создем пустой объект и присоединяем к нему перцептрон-файл:
 ![image](https://user-images.githubusercontent.com/106770342/204089708-756fcf89-8731-49c8-8b6d-b6395b635720.png)
 ![image](https://user-images.githubusercontent.com/106770342/204089724-f3b4f658-7aab-4e5e-9103-f9cb69d3c471.png)
 
+
+
+Вводим данные логики OR в ts:
+![image](https://user-images.githubusercontent.com/106770342/204089998-59d2b913-94e7-4b69-906d-2e682e6e2631.png)
+
+
+Запусукаем и видим, что при 1 и 3 попытках была 1 ошибка, при 2 попытке было 2 ошибки, а после ошибок не было, то есть перцептрон "научился" производить вычисления OR, это мы видим в консоле в последних 4 строчках теста:
+![image](https://user-images.githubusercontent.com/106770342/204090044-52629114-7b4b-4eab-a0af-7725a97b8a59.png)
+![image](https://user-images.githubusercontent.com/106770342/204090055-87fb630e-1df9-4c4c-85f4-a7528c3c14ff.png)
 
 
 ## Задание 2
