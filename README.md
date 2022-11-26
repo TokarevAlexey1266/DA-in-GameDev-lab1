@@ -47,6 +47,9 @@
 Создаем 3D Unity проект:
 ![image](https://user-images.githubusercontent.com/106770342/204089492-bc0647ae-c6ee-47d0-bb22-52a4da45bbeb.png)
 
+Создем пустой объект и присоединяем к нему перцептрон-файл:
+![image](https://user-images.githubusercontent.com/106770342/204089708-756fcf89-8731-49c8-8b6d-b6395b635720.png)
+![image](https://user-images.githubusercontent.com/106770342/204089724-f3b4f658-7aab-4e5e-9103-f9cb69d3c471.png)
 
 
 
