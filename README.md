@@ -65,6 +65,19 @@
 ![image](https://user-images.githubusercontent.com/106770342/204090055-87fb630e-1df9-4c4c-85f4-a7528c3c14ff.png)
 
 
+
+
+Вводим данные логики AND в ts:
+![image](https://user-images.githubusercontent.com/106770342/204090744-381a069d-3cf1-404e-8c9d-0bb71bb2a31c.png)
+
+
+Запусукаем и видим, что ошибки были, но после 7ой попытки ошибок не было, то есть перцептрон "научился" производить вычисления OR, это мы видим в консоле в последних 4 строчках теста:
+![image](https://user-images.githubusercontent.com/106770342/204090888-6961ef9e-fcbf-42a8-9294-0033236e1319.png)
+![image](https://user-images.githubusercontent.com/106770342/204090901-040a7e25-0b42-4f9f-92de-11786eff67ea.png)
+
+
+
+
 ## Задание 2
 ### Пошагово выполнить каждый пункт раздела "ход работы" с описанием и примерами реализации задач
 
